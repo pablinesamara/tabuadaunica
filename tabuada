@@ -1,0 +1,13 @@
+fun main() {
+    var n:Int=97
+    var res:Int=0
+    println("Tabuada do $n")    
+    for(x in 1..10){
+      res=x*n
+      println("$n x  $x = $res")
+    }
+    //forma mais enxuta do codigo
+    for(i in 1..10){
+    println("97 x $i ="+ 97*i)
+    }
+}
